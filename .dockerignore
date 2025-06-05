@@ -1,38 +1,7 @@
-# Git 저장소 관련
+node_modules
 .git
-.gitignore
-
-# macOS 시스템 파일
-.DS_Store
-
-# Node.js 디렉토리
-node_modules/
-
-# Python 가상환경 디렉토리
-venv/
-__pycache__/
-*.pyc
-
-# 빌드 출력물
-dist/
-build/
-
-# 로그 파일
-*.log
-
-# 환경 파일
-.env
-
-# Dockerfile 혹은 docker-compose.yml 같은 도커 관련 파일은 보통 포함
-# 필요한 경우 제외하려면 아래에 추가하면 됩니다.
-# docker-compose.yml
-
-# IDE/Editor 설정
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# 기타
-*.bak
-*.tmp
+.svelte-kit
+build
+Dockerfile
+docker-compose.yml
+*.env

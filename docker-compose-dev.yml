@@ -9,11 +9,11 @@ services:
     working_dir: /app/frontend
     volumes:
       - ./frontend:/app/frontend  
-      - ./frontend/node_modules:/app/frontend/node_modules
+      - /app/frontend/node_modules
     networks:
       - my_network
     ports:
-      - "5000:5000"            
+      - "5001:5000"            
     depends_on:
       - backend         
     command: npm run dev -- --host
